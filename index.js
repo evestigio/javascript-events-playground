@@ -1,4 +1,19 @@
 document.addEventListener('DOMContentLoaded', function(){
-console.log("Hello World!")
-    document.addEventListener()
+
+    let changeColorButton = document.querySelector('#changeColor')
+
+    let colorDiv = document.querySelector('#colorDiv')
+
+    changeColorButton.addEventListener('click', function(){
+
+        colorDiv.style.background = '#6772e5'
+
+    })
+
 })
+function changeColor(){
+
+    let colorDiv = document.querySelector('#colorDiv')
+
+    colorDiv.style.background = 'red'
+}
