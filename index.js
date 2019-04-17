@@ -11,9 +11,3 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
 })
-function changeColor(){
-
-    let colorDiv = document.querySelector('#colorDiv')
-
-    colorDiv.style.background = 'red'
-}
